@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;700&display=swap');
+
+/* =========== THEME CONTROLLER =========== */
+
+.bg-thm-l {
+  background-color: #F4F9F4;
+}
+
+.bg-thm-ml {
+  background-color: #A7D7C5;
+}
+
+.bg-thm-md {
+  background-color: #74B49B;
+}
+
+.bg-thm-d {
+  background-color: #5C8D89;
+}
+
+.thm-l {
+  color: #F4F9F4;
+}
+
+.thm-ml {
+  color: #A7D7C5;
+}
+
+.thm-md {
+  color: #74B49B;
+}
+
+.thm-d {
+  color: #5C8D89;
+}
+
+/* =========== END CONTROLLER =========== */
+
+* {
+  margin: 0;
+  font-family: "Work Sans";
+  color: #333;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.info input {
+  width: 50%;
+  height: 25px;
+  font-size: 24px;
+  padding: 0px 5px;
+  margin: 10px 0px;
+}
+
+.info button{
+  width: 50%;
+  height: 50px;
+  font-size: 20px;
+  padding: 5px 0px;
+  margin: 10px 0px;
+} 
+
+nav  {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar {
+  padding: 0px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.nav-link {
+  float: left;
+  color: #000;
+  text-align: center;
+  padding: 14px 8px;
+  text-decoration: none;
+}
+
+.navbar-text {
+  float: left;
+  color: #000;
+  text-align: center;
+  padding: 14px 8px;
+  text-decoration: none;
+}
+
+.content {
+  max-width: 100%;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.l-panel {
+  float: left;
+  width: 50%;
+  background: #ccc;
+  padding: 20px;
+}
+
+.r-panel {
+  float: left;
+  padding: 20px;
+  width: 50%;
+  background-color: #f1f1f1;
+}
+
